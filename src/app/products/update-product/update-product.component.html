@@ -1,0 +1,48 @@
+<form (submit)="updateProduct(updateProductForm)" #updateProductForm="ngForm">
+    <div class="form-outline mb-4">
+      <input type="text" id="form6Example1" class="form-control"  [(ngModel)] = "productDetail.name"   required name = "product_name" ngModel />
+      <label class="form-label" for="form6Example1">Name</label>
+    </div>
+  
+    <!-- Message input -->
+    <div class="form-outline mb-4">
+      <textarea class="form-control" id="form6Example7" rows="4"  [(ngModel)] = "productDetail.description" required name="product_description" ngModel  ></textarea>
+      <label class="form-label" for="form6Example7">Description</label>
+    </div>
+  
+    <div class="form-outline mb-4">
+      <input type="text" id="form6Example1" class="form-control"  [(ngModel)] = "productDetail.imageUrl" required name = "product_imageUrl" ngModel />
+      <label class="form-label" for="form6Example1">Image Url</label>
+    </div>
+  
+    <!-- Text input -->
+    <div class="form-outline mb-4">
+      <input type="number" id="form6Example3" class="form-control" [(ngModel)] = "productDetail.price"  required name="product_price" ngModel />
+      <label class="form-label" for="form6Example3">Price</label>
+    </div>
+  
+    <!-- Text input -->
+    <div class="form-outline mb-4">
+      <select id="inputState" class="form-control" [(ngModel)] = "productDetail.rating"  required name="product_rating" ngModel>
+        <option selected>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+      <label for="inputState">Rating</label>
+    </div>
+
+    <!-- Text input -->
+    <div class="form-outline mb-4">
+      <select id="inputState" class="form-control" [(ngModel)] = "productDetail.brand" required name="product_brand" ngModel>
+        <option selected>Honda</option>
+        <option>Toyota</option>
+        <option>Suzuki</option>
+      </select>
+      <label for="inputState">Brand</label>
+    </div>
+  
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Update Car</button>
+  </form>

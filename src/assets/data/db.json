@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "HeadPhone -1",
+      "category_id": 2,
+      "description": "Description goes here",
+      "price": 100,
+      "is_available": true,
+      "rating": 4,
+      "review": 120,
+      "vendor_name": "Seller -1",
+      "warranty": 2
+    },
+    {
+      "id": 2,
+      "name": "HeadPhone -2",
+      "category_id": 3,
+      "description": "Description goes here",
+      "price": 1010,
+      "is_available": true,
+      "rating": 4,
+      "review": 120,
+      "vendor_name": "Seller -1",
+      "warranty": 2
+    },
+    {
+      "id": 3,
+      "name": "HeadPhone -3",
+      "category_id": 2,
+      "description": "Description goes here",
+      "price": 120,
+      "is_available": false,
+      "rating": 4,
+      "review": 120,
+      "vendor_name": "Seller -1",
+      "warranty": 2
+    },
+    {
+      "id": 4,
+      "name": "HeadPhone -4",
+      "category_id": 2,
+      "description": "Description goes here",
+      "price": 1100,
+      "is_available": true,
+      "rating": 4,
+      "review": 120,
+      "vendor_name": "Seller -1",
+      "warranty": 2
+    },
+    {
+      "id": 8,
+      "name": "New shirt",
+      "description": "New description 12",
+      "price": 1222,
+      "rating": "5"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Polo"
+    },
+    {
+      "id": 2,
+      "name": "Nike"
+    },
+    {
+      "id": 3,
+      "name": "Levis"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

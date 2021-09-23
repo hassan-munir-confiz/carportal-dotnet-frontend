@@ -1,0 +1,12 @@
+<div class="card mt-4">
+  <img src="{{product.imageUrl}}" alt="">
+  <div class="card-body">
+    <h4 class="card-text">{{[product.name]}}</h4>
+    <p class="card-text">{{[product.description]}}</p>
+    <h4>Price : ${{product.price}}</h4>
+    <h4>Rating : {{product.rating}} stars</h4>
+    <a href="products/update-product/{{product.id}}">Update Car</a><br>
+    <a href="products/delete-product/{{product.id}}">Delete Car</a>
+  
+  </div>
+</div>
